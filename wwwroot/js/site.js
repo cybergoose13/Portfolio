@@ -5,3 +5,15 @@
 $(document).ready(function(){
     // alert("test");
 })
+
+$('p').hover(function () {
+    alert("me");
+})
+
+$(document).on("click", "p", function () {
+    alert('hello');
+})
+
+$(document).on("mouseenter", "p", function() {
+    alert('a thing');
+})
