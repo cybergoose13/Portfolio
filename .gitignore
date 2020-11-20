@@ -1,3 +1,11 @@
 obj/
 Properties/
 bin/
+Portfolio.dll
+Portfolio.exe
+Portfolio.pdb
+Portfolio.runtimeconfig.dev.json
+Portfolio.csproj.nuget.dgspec.json
+Portfolio.cspoj.nuget.g.props
+project.assets.json
+project.nuget.cache
