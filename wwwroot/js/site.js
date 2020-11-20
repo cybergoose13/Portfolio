@@ -5,3 +5,7 @@
 $(document).ready(function(){
     // alert("test");
 })
+
+$(document).on("mouseenter", "p", function () {
+    alert("hello friend");
+})
