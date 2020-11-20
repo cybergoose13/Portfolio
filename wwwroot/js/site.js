@@ -6,6 +6,7 @@ $(document).ready(function(){
     // alert("test");
 })
 
+<<<<<<< HEAD
 $('p').hover(function () {
     alert("me");
 })
@@ -16,4 +17,8 @@ $(document).on("click", "p", function () {
 
 $(document).on("mouseenter", "p", function() {
     alert('a thing');
+=======
+$(document).on("mouseenter", "p", function () {
+    alert("hello friend");
+>>>>>>> 919816434dc95e1359a65205a6f3d47b0d0d0a1d
 })
