@@ -18,7 +18,13 @@ namespace Portfolio.Controllers
             _logger = logger;
         }
 
+        [HttpGet("")]
         public IActionResult Index(){
+            return View();
+        }
+        [HttpGet("/about")]
+        public IActionResult AboutMe(){
+            Console.WriteLine("AboutMe has been called");
             return View();
         }
 

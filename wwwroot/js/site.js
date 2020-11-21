@@ -15,14 +15,19 @@ $(document).on("click", "p", function () {
     alert('hello');
 })
 
-$(document).on("mouseenter", "#h1-about", function() {
+$(document).on("mouseenter", "#h1-about", function(params) {
     $(this).attr("style", "color: #dc3545 !important");
     $(this).text("About");
 })
 
-$(document).on("mouseleave", "#h1-about", function (){
+$(document).on("mouseleave", "#h1-about", function (params){
     $(this).attr("style", "color: white !important");
     $(this).text("Hello.");
+})
+
+$(document).on("click", "#h1-about", function (params) {
+    $(location).attr('href', '/about');
+    // window.location.href= '/about';
 })
 
 $(document).on('mouseenter', '#h1-projects', function (params) {
