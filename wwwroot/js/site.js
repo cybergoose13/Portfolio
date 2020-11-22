@@ -40,6 +40,10 @@ $(document).on('mouseleave', '#h1-projects', function (params) {
     $(this).text("I am");
 })
 
+$(document).on('click', '#h1-projects', function (params) {
+    $(location).attr('href', '/projects')
+})
+
 $(document).on('mouseenter', '#h1-contact', function (params) {
     $(this).attr("style", "color: white !important");
     $(this).text("Contact");
@@ -48,4 +52,8 @@ $(document).on('mouseenter', '#h1-contact', function (params) {
 $(document).on('mouseleave', '#h1-contact', function (params) {
     $(this).attr("style", "color: #dc3545 !important");
     $(this).text("Josh");
+})
+
+$(document).on('click', '#h1-contact', function (params) {
+    $(location).attr('href', 'contact');
 })

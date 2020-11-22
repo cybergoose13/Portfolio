@@ -27,6 +27,16 @@ namespace Portfolio.Controllers
             return View();
         }
 
+        [HttpGet("/projects")]
+        public IActionResult Projects(){
+            return View();
+        }
+
+        [HttpGet("/contact")]
+        public IActionResult Contact(){
+            return View();
+        }
+
         public IActionResult Privacy(){
             return View();
         }
