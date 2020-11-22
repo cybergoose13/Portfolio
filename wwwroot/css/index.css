@@ -35,26 +35,26 @@ p{
     position: absolute;
     margin-top: 10%;
     margin-left: 15%;
-    width: 150px;
-    height: 150px;
+    width: 255px;
+    height: 100px;
 }
 
 #h1-projects{
     position: absolute;
-    margin-top: 15%;
+    margin-top: 25%;
     margin-left: 17%;
     /* margin-top: 300px;
     margin-left: 200px; */
     width: 200px;
-    height: 150px;
+    height: 100px;
 }
 
 #h1-contact{
     position: absolute;
-    margin-top: 20%;
+    margin-top: 40%;
     margin-left: 16.5%;
     width: 200px;
-    height: 150px;
+    height: 100px;
 }
 
 #m_img{
@@ -65,7 +65,7 @@ p{
     height: 150px;
 }
 
-@media only screen and (max-width: 300px){
+/* @media only screen and (max-width: 300px){
     #h1-projects{
         margin-top: 25%;
     }
@@ -73,4 +73,4 @@ p{
     #h1-contact{
         margin-top: 42%;
     }
-}
+} */

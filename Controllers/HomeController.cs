@@ -24,7 +24,6 @@ namespace Portfolio.Controllers
         }
         [HttpGet("/about")]
         public IActionResult AboutMe(){
-            Console.WriteLine("AboutMe has been called");
             return View();
         }
 

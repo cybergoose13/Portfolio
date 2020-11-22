@@ -6,3 +6,26 @@
 body{
     background-color: black !important;
 }
+
+a{
+    margin-left: 90%;
+}
+
+#title1{
+    visibility: visible;
+}
+
+#title2{
+    visibility: visible;
+}
+
+#div_about{
+    width: 60%;
+}
+
+#_img{
+    width: 50%;
+    border-radius: 5%;
+    /* visibility: hidden; */
+    margin-left: 45% !important;
+}
