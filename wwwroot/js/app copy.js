@@ -1,35 +1,15 @@
-$(document).ready(function (params) {
-    // $('#title1').slideDown(1000);
-    $('#title1').hide();
-    $('#title2').hide();
-    $('#title1').slideDown(2000);
-    // $('#title2').show(2000);
-    $('#title2').slideDown(2000);
-    // var t2 = $("#title2:not(:visible)");
-    // var height = t2.css({
-    //     display: "block"
-    // }).height();
-    
-    // t2.css({
-    //     overflow: "hidden",
-    //     marginTop: height,
-    //     height: 0
-    // }).animate({
-    //     marginTop: 0,
-    //     height: height
-    // }, 1500, function (){
-    //     $(this).css({
-    //         display: "",
-    //         overflow: "",
-    //         height: "",
-    //         marginTop:""
-    //     });
-    // });
+/* -----------------------------------------------
+/* How to use? : Check the GitHub README
+/* ----------------------------------------------- */
 
-    // $('#_img').hide();
-    // $('#_img').show(3000);
-
+/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
+/*
+particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('particles.js loaded - callback');
 });
+*/
+
+/* Otherwise just put the config content (json): */
 
 particlesJS('particles-js',
   
@@ -44,13 +24,12 @@ particlesJS('particles-js',
       },
       "color": {
         "value": "#ffffff"
-        // "value": '#464646'
       },
       "shape": {
         "type": "circle",
         "stroke": {
-          "width": 1,
-          "color": "#eeeeee"
+          "width": 0,
+          "color": "#000000"
         },
         "polygon": {
           "nb_sides": 5
@@ -82,7 +61,7 @@ particlesJS('particles-js',
         }
       },
       "line_linked": {
-        "enable": false,
+        "enable": true,
         "distance": 150,
         "color": "#ffffff",
         "opacity": 0.4,
@@ -106,11 +85,11 @@ particlesJS('particles-js',
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": false,
+          "enable": true,
           "mode": "bubble"
         },
         "onclick": {
-          "enable": false,
+          "enable": true,
           "mode": "push"
         },
         "resize": true
