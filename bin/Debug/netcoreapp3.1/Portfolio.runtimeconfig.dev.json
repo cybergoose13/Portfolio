@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Goose\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Goose\\.nuget\\packages"
+      "C:\\Users\\goose\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\goose\\.nuget\\packages"
     ]
   }
 }
