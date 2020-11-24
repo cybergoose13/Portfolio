@@ -17,12 +17,12 @@ $(document).on("click", "p", function () {
 
 $(document).on("mouseenter", "#h1-about", function(params) {
     $(this).attr("style", "color: #dc3545 !important");
-    $(this).text("About");
+    $(this).text("About Me");
 })
 
 $(document).on("mouseleave", "#h1-about", function (params){
     $(this).attr("style", "color: white !important");
-    $(this).text("Hello.");
+    $(this).text("Josh");
 })
 
 $(document).on("click", "#h1-about", function (params) {
@@ -32,12 +32,13 @@ $(document).on("click", "#h1-about", function (params) {
 
 $(document).on('mouseenter', '#h1-projects', function (params) {
     $(this).attr("style", "color: white !important");
-    $(this).text("Projects");
+    $(this).css("style", "width", "400px");
+    $(this).text("See All Projects");
 })
 
 $(document).on('mouseleave', '#h1-projects', function (params) {
     $(this).attr("style", "color: #dc3545 !important");
-    $(this).text("I am");
+    $(this).text("Projects");
 })
 
 $(document).on('click', '#h1-projects', function (params) {
