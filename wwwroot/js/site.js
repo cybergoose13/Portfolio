@@ -32,8 +32,7 @@ $(document).on("click", "#h1-about", function (params) {
 
 $(document).on('mouseenter', '#h1-projects', function (params) {
     $(this).attr("style", "color: white !important");
-    $(this).css("style", "width", "400px");
-    $(this).text("See All Projects");
+    $(this).text("See Projects");
 })
 
 $(document).on('mouseleave', '#h1-projects', function (params) {
