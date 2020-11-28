@@ -1,16 +1,23 @@
 $(document).ready(function (params) {
+
+  $('#title1').hide();
+  $('#title1').toggle(2000);
     
 });
 
 $(document).on('click', '#email_tag', function (params) {
     params.preventDefault();
+    // set copyText to whatever is in href
     var copyText = $(this).attr('href');
 
+    // event listener for when copy command is called
     document.addEventListener('copy', function (params) {
+      // set parameter clip board data to copyText in plain text
         params.clipboardData.setData('text/plain', copyText);
         params.preventDefault();
     }, true);
 
+    // execCommand for copy
     document.execCommand('copy');
 });
 
@@ -26,13 +33,13 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#fef822"
       },
       "shape": {
         "type": "circle",
         "stroke": {
-          "width": 0,
-          "color": "#000000"
+          "width": 1,
+          "color": "#ffffff"
         },
         "polygon": {
           "nb_sides": 5
@@ -44,7 +51,7 @@ particlesJS('particles-js',
         }
       },
       "opacity": {
-        "value": 0.5,
+        "value": 1,
         "random": false,
         "anim": {
           "enable": false,
@@ -54,17 +61,17 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 5,
+        "value": 2,
         "random": true,
         "anim": {
-          "enable": false,
-          "speed": 40,
+          "enable": true,
+          "speed": 15,
           "size_min": 0.1,
           "sync": false
         }
       },
       "line_linked": {
-        "enable": true,
+        "enable": false,
         "distance": 150,
         "color": "#ffffff",
         "opacity": 0.4,
@@ -75,10 +82,10 @@ particlesJS('particles-js',
         "speed": 6,
         "direction": "none",
         "random": false,
-        "straight": false,
+        "straight": true,
         "out_mode": "out",
         "attract": {
-          "enable": false,
+          "enable": true,
           "rotateX": 600,
           "rotateY": 1200
         }
@@ -88,11 +95,11 @@ particlesJS('particles-js',
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": true,
+          "enable": false,
           "mode": "bubble"
         },
         "onclick": {
-          "enable": true,
+          "enable": false,
           "mode": "push"
         },
         "resize": true
