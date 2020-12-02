@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "41YzJQfBK5r2yMLE9iB4UWleEW0GuiD5AveTidNJJXUL965bHbiT/o6+GuyMlMK8gr2iZghPQDbzahvV7wIqDg==",
+  "dgSpecHash": "PrIyR0EV1Jn+a0y5972vPjDbHt4poUxcpZpPP2z02InhO2fgTye+RgXp6lTtmbnK1PSw1T/tVSpFNo7WQmiWsg==",
   "success": true,
-  "projectFilePath": "D:\\VisualStudio\\Portfolio\\Portfolio.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\VSCode\\Portfolio\\Portfolio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Goose\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Goose\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Goose\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.8\\microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512",
+    "C:\\Users\\Goose\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.9\\microsoft.netcore.app.host.win-x64.3.1.9.nupkg.sha512"
+  ],
   "logs": []
 }
